@@ -7,7 +7,7 @@
 def happy_birthday(birthday_kids)
   # add your code snippet here!
   birthday_kids.each do |name, age|
-    print "Happy birthday #{name}! You are now #{age} years old!\n"
+    puts "Happy birthday #{name}! You are now #{age} years old!"
   end
 
 end
